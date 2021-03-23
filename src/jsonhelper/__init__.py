@@ -20,6 +20,12 @@ class jsontools:
 			print(err)
 			return False
 		return True
+
+	def convertJsonToList(data):
+		try:
+			return json.loads(data)
+		except:
+			return False
 	
 	def convertToJson(data):
 
