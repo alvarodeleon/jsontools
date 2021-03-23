@@ -1,6 +1,6 @@
 
-from FormsValidators.rules import Validators
-from FormsValidators.rules import FormValidation
+from FormsValidators import Validators
+from FormsValidators import FormValidation
 
 
 import json
